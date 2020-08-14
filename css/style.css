@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.Ifont-size{
+    font-size: 25px;
+    padding-right: 20px;
+}
+/*START
+HEAD SECTION
+*/
+.head{
+    background-color:gray ;
+    overflow: hidden;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    height: 100%;
+}
+.logo{
+    float: left;
+   /* background-color:yellow ;*/
+    width: 30%;
+    height: 20%;
+    text-align: center;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+    padding-top: 20px;
+}
+
+.navigation{
+    float: left;
+   /* background-color:green ;*/
+    width:70% ;
+    height: 20%;
+
+}
+.navigation a{
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.navigation a:hover{
+    color: yellow;
+}
+.navigation a:active{
+    color: black;
+    border-top:solid 5px black;
+}
+.navigation ul{
+    text-align: right;
+    margin-right: 50px;
+}
+.navigation ul li{
+   display: inline-block;
+   padding: 30px;
+
+}
+.welcome{
+  /*  background-color: hotpink;*/
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    font-weight: 700;
+
+}
+.welcome h2{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.welcome h1{
+    font-size: 50px;
+    padding: 20px 0;
+    font-family: 'Alegreya', serif;
+}
+.welcome p{
+   font-size: 20px;
+   line-height: 50px;
+   margin-bottom: 20px;
+}
+.welcome button{
+    padding: 18px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 5px;
+    font-weight: 700;
+}
+.welcome button:first-of-type{
+    background-color: burlywood;
+    border:solid 2px transparent;
+
+}
+.welcome button:last-of-type{
+    background-color:transparent;
+    border:solid 2px white;
+}
+.welcome button:hover{
+    cursor:pointer ;
+    color: black;
+    background-color: white;
+}/*END
+HEAD SECTION
+*/
+/*
+START
+WHO WE ARE SECTION 
+*/
+.whoWeAre{
+    /*background-color: blue;*/
+    height: 100%;
+    overflow: auto;
+
+}
+.whoWeAreImg{
+    float: left;
+    width: 50%;
+    height: 100%;
+    /*background-color: brown;*/
+    background-image: url(../images/alexandru-stavrica-170390-800x760.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.whoWeAreAnswer{
+    float: left;
+    width: 50%;
+    height: 100%;
+   /* background-color: rebeccapurple;*/
+    padding: 100px 70px;
+    color: #686868;
+    font-weight: 400;
+}
+.whoWeAreAnswer h2{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+.whoWeAreAnswer p{
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.whoWeAreAnswer li{
+    padding-bottom: 35px;
+    list-style: none;
+}
+/*
+END
+WHO WE ARE SECTION 
+*/
+/*
+START
+LOACTION SECTION
+*/
+.ourLocation{
+    height: 100%;
+    background-color: #f8f8f8;
+    overflow: auto;
+
+}
+.ourLocationImg{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/full-2-800x640.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ourLocationData{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 100px 70px;
+    color: #686868;
+    font-weight: 400;
+}
+.ourLocationData h2{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+.ourLocationData p{
+    margin-bottom: 20px;
+    line-height: 40px;
+}/*
+END
+LOACTION SECTION
+*/
+/*
+START 
+our BACKING*/
+.ourBacking{
+    height: 100%;
+    text-align: center;
+}
+.ourBacking h2{
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+.ourBacking p{
+    margin-bottom: 20px;
+    line-height: 40px;
+    color: #686868;
+}
+.container{
+    width: 90%;
+    margin:0px auto;
+    overflow: hidden;
+    height: 100%;
+}
+.bakingProduct{
+    width: 33.3% ;
+    float: left;
+    padding: 20px 0px;
+
+}
+.bakingProduct:first-of-type{
+    padding-right: 20px;
+}
+.bakingProduct:last-of-type{
+    padding-left: 20px;
+}
+.bakingProduct h3{
+padding:20px 0px ;
+}
+.bakingProduct p{
+    line-height: 20px;
+    color: #686868;
+}
+.bakingProduct img{
+    width: 100%;
+    height: 50%;
+}
+/*END our BACKING*/
+/*START CONTACT INFO*/
+.contact{
+    background-color: #f8f8f8;
+    height: 100%;
+    overflow: auto;
+}
+.contactInfo{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 100px 70px;
+    color: #686868;
+    font-weight: 400;
+}
+.contactInfo h2{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+.contactInfo p{
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.contactInfo li{
+    padding-bottom: 35px;
+    list-style: none;
+}
+
+.contactMap{
+    float: left;
+    width: 50%;
+    height: 100%; 
+    text-align: center;
+
+}
+.mapContainer {
+    height: 100%;
+    padding: 90PX 0px;
+}
+/*END CONTACT INFO*/
+
+/*Start Footer*/
+
+/*Start infofooter*/
+.infoFooter{
+    background-color: #1b1b1b;
+    height:60%;
+ /*  text-align: center;*/
+}
+.footerContainer{
+   /* background-color: red;*/
+    width: 90%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #969696;
+    overflow: auto;
+    margin: 0 auto;
+}
+.infofooterCol{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 15px 0;
+    /*background-color: green;*/
+}
+.infofooterCol h4{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.infofooterCol li{
+    border-bottom:1px solid rgba(255,255,255,0.05);
+    line-height: 1.86em;
+    list-style-type: '>';
+    padding-bottom: 25px;
+    width: 80%;
+}
+.aboutUs p{
+ margin-bottom: 20px;
+ line-height: 1.86em;
+ width: 90%;
+}
+.contactUsFooter {
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+}
+.contactUsFooter li{
+    list-style: none;
+    width: 90%;
+}
+.contactUsFooter a{
+    text-decoration: none;
+    color: #969696;
+}
+.contactUsFooter a:hover{
+    color: white;
+}
+/*End infofooter*/
+
+/*Start socialFooter*/
+.socialFooter{
+    background-color: rgb(53, 52, 52);
+    height:40%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.socialFooter img{
+    width: 30%;
+    height: 40%;
+}
+.socialFooter h4{
+    color: #777;
+    font-size: 15px;
+    padding: 20px 0px ;
+}
+.socialFooter i{
+    font-size: 35px;
+}
+.socialFooter a{
+    color: #8c8a86;
+}
+.facebook:hover{
+    color: blue;
+}
+.gmail:hover{
+    color: red;
+}
+.linkedin:hover{
+    color:royalblue;
+}
+.twitter:hover{
+    color: rgb(12, 229, 245);
+}
+/*End socialFooter*/
+
+/*End footer*/
+
+/* start FIXED Navigation BUTTON*/
+.navigationBtn{
+    height: 50px;
+    width: 50px;
+    color:#8c8a86 ;
+    background-color: #1b1b1b;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    font-weight: 700;
+    border: 2px solid rgba(255,255,255,0.8);
+    text-align: center;
+}
+.navigationBtn i{
+    padding: 15px 0;
+}
+.navigationBtn:hover{
+    cursor: pointer;
+    color:white ;
+    background-color: black;
+}
+/*END FIXED Navigation BUTTON*/
