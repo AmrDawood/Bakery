@@ -165,7 +165,36 @@ HEAD SECTION
     cursor:pointer ;
     color: black;
     background-color: white;
-}/*END
+}
+.nav-to-about{
+    height: 50px;
+    width: 35px;
+    border-radius: 42%;
+    border:solid 2px white;
+    margin: 20px auto;
+    position: relative;
+    
+    cursor: pointer;
+}
+.nav-to-about::after{
+    content: "";
+    background-color:white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 10%;
+    left: 34%;
+    position: absolute;
+    animation-name:disapearing-dot ;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes disapearing-dot{
+    0%{top:10%}
+    100%{top:60%;opacity:0;}
+}
+/*END
 HEAD SECTION
 */
 /*
