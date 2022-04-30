@@ -8,10 +8,15 @@
         <title>Engage Bakery</title>
     </head>
     <body>
+        <div id="loading">
+            <img src="./images/preloader.gif" alt="">
+        </div>
         <div id="home" class="head">
-            <div class="container">
+            <div class="navigationLayer">
+
+            <div id="navigationBar" class="container">
                 <div class="logo">
-                <a href=""> <img src="images/bakery-light-1.png" alt=""></a>
+                    <a href=""> <img src="images/bakery-light-1.png" alt=""></a>
                 </div>
                 <div class="navigation">
                         <ul>
@@ -24,6 +29,8 @@
                         </ul>
                 </div>
             </div>
+        </div>
+
             <div class="welcome">
                 <h3>Welcome to </h3>
                 <h1>Family Bakery</h1>
@@ -37,7 +44,7 @@
         </div>
         <div class="whoWeAre">
             <div class="container">
-            <div class="whoWeAreImg">
+            <div  class="whoWeAreImg">
                 <div class="data-container-inner">                   
                  <img src="./images/alexandru-stavrica-170390-800x760.jpg" alt="bread image">
                 </div>
@@ -246,12 +253,20 @@
                     <a class="twitter" href=""><i class="fab fa-twitter Ifont-size"></i></a>
             </div>
         </div>
-        <a href="#home" class="navigationBtn"><i class="fas fa-arrow-up"></i></a>
+        <a  href="#" class="navigationBtn"><i class="fas fa-arrow-up"></i></a>
         <div class="gear-box">
-            <i class="fas fa-cogs fa-2x"></i> 
-            <br>
-            <i class="fas fa-shopping-cart fa-2x"></i>
+            <div class="colorBox">
+                <h4>choose your color</h4>
+                <div class="colorItem"></div>
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div>
+            </div>
+            <i id="gearBoxToggleBtn" class="fas fa-cogs fa-2x"></i> 
         </div>
     </body>
-
+<script src="./js/jQuery.js"></script>
+<script src="./js/navigationScript.js"></script>
+<script src="./js/colorBox&preLoadingScript.js"></script>
 </html>

@@ -8,7 +8,10 @@
         <title>Gallery-Engage Bakery</title>
     </head>
     <body>
-        <div id="" class="head gallery-head ">
+        <div id="loading">
+            <img src="./images/preloader.gif" alt="">
+        </div>
+        <div  class="head gallery-head ">
             <div class="container gallery-head-container">
                 <div class="logo">
                 <a href=""> <img src="images/bakery-color.png" alt=""></a>
@@ -30,28 +33,52 @@
             </div>
         </div>
         <div class="gallery-section">
-            <div class="container">       
+            <div class="container">
+                <div class=" image-gallery">
+                    <div class="imgContainerInner">
+                      <img src="images/full-2.jpg" alt="">
+                    </div>
+                </div>       
                 <div class="image-gallery">
-                        <img src="images/full-2-800x640.jpg" alt="">
-                </div>
+                    <div class="imgContainerInner">
+                     <img src="images/ben-garratt-134774.jpg" alt="">
+                    </div>
+                 </div>       
+
                 <div class="image-gallery">
-                         <img src="images/ben-garratt-134774-600x500.jpg" alt="">
-                </div>
+                    <div class=" imgContainerInner">
+                     <img src="images/clem-onojeghuo-206832.jpg" alt="">
+                    </div>
+                </div>       
+
                 <div class="image-gallery">
-                      <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="">
-                </div>
+                    <div class=" imgContainerInner">
+                      <img src="images/stas-ovsky-123540.jpg" alt="">
+                    </div>
+                </div>       
+
                 <div class="image-gallery">
-                        <img src="images/stas-ovsky-123540-600x500.jpg" alt="">
-                </div>
+                    <div class="imgContainerInner">
+                        <img src="images/alexandru-stavrica-170390.jpg" alt="">
+                    </div>
+                 </div>       
+
                 <div class="image-gallery">
-                      <img src="images/full-2-800x640.jpg" alt="">
-                </div>
-                <div class="image-gallery">
-                     <img src="images/full-2-800x640.jpg" alt="">
-                </div>
+                    <div class=" imgContainerInner">
+                        <img src="images/roman-kraft-56589.jpg" alt="">
+                    </div>
+                </div>       
             </div>
         </div>
+        <div id="galleryLightBox">
+            <div id="galleryLightBoxItem">
+                <i id="leftBtn" class="fa fa-arrow-left fa-3x "></i>
+                <i id="closeBtn" class="fa fa-times fa-3x "></i>
+                <i id="rightBtn" class="fa fa-arrow-right fa-3x "></i>
 
+
+            </div>
+        </div>
         <div class="footer">
             <div class="infofooter">
                 <div class="container">
@@ -117,5 +144,19 @@
                     <a class="twitter" href=""><i class="fab fa-twitter Ifont-size"></i></a>
             </div>
         </div>
+        <div class="gear-box">
+            <div class="colorBox">
+                <h4>choose your color</h4>
+                <div class="colorItem"></div>
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div> 
+                <div class="colorItem"></div>
+            </div>
+            <i id="gearBoxToggleBtn" class="fas fa-cogs fa-2x"></i> 
+        </div>
     </body>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/lightBoxScript.js"></script>
+    <script src="./js/colorBox&preLoadingScript.js"></script>
 </html>
